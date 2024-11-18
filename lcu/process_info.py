@@ -25,6 +25,3 @@ def get_lockfile_information(lc_install_dir) -> list[str]:
         lockfile = [line[2], line[3]] #2: port, 3: password
     
     return lockfile
-
-
-print(get_lockfile_information(_get_process_dir()))
